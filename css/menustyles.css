@@ -1,0 +1,135 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  font-family: Nunito Sans Bold, sans-serif;
+}
+.firstline{
+  width: 100%;
+  background-color: #001D3E;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+  font-size:15px;
+  display: flex;
+}
+.container{
+display:flex;
+padding-top: 30px;
+padding-left: 80px;
+/*border: 1px solid black;*/
+}
+.container a{
+  color: lightgray;
+  padding: 5px 5px;
+}
+.searchemail{
+  background-color: white;
+  margin-left:7px;
+  font-size: 14px;
+  color: lightgray;
+  position: relative;
+  top:-4px;
+}
+.searchemail button{
+  background-color: #2E7FA0;
+  color: white;
+  border: none;
+  padding: 3px 7px 3px 7px;
+  border-radius:5px;
+  text-align: center;
+  font-size: 12px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+.center_container{
+  padding-top:20px;
+  padding-left:250px;
+}
+.right_container{
+  padding-top:30px;
+  padding-left:180px;
+  display: flex;
+}
+.second_container{
+   display: flex;
+   position: relative;
+   top: -20px;
+  padding-top:30px;
+ justify-content: center;
+  width: 100%;
+}
+.second_container div:hover{
+   background-color:#1176bb;
+   color: white;
+}
+.second_container div{
+  padding: 20px;
+}
+.right_container a{
+  color: lightgray;
+  padding: 5px  20px;
+}
+.bag{
+  position: relative;
+  top:18px;
+  left:-34px;
+}
+.nav_menu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+}
+.offer_banner{
+  width: 100%;
+  background-color:#c3d9ea;
+  color:#001b44;
+  padding:10px;
+  text-align: center;
+  position: relative;
+  top: -175px;
+}
+.spanone{
+  font-size:60px;
+  font-family: Perfectly Nineties!important;
+}
+.spantwo{
+  font-family: Nunito Sans, sans-serif;
+  font-size:30px;
+}
+.spanthree{
+  font-size:15px;
+}
+.searchbar{
+  padding: 20px;
+  position: relative;
+  top:-147px;
+  left:1270px;
+  background-color: white;
+}
+.animation{
+/*  border: 1px solid black;*/
+  width:100%;
+  top:-180px;
+  height: 800px;
+  position: relative;
+  animation: mymove 15s infinite;
+  display: flex;
+}
+
+@keyframes mymove {
+  0% {background-image: url("https://www.vineyardvines.com/on/demandware.static/-/Sites-Vineyard-Vines-Library/default/dwc8e2b828/images/Homepage/0518HP_H1b_Hero_lrg.jpg");}
+ 25% {background-image: url("https://www.vineyardvines.com/on/demandware.static/-/Sites-Vineyard-Vines-Library/default/dw92e93c5d/images/Homepage/0518HP_H1c_Hero_lrg.jpg");}
+ 50% {background-image: url("https://www.vineyardvines.com/on/demandware.static/-/Sites-Vineyard-Vines-Library/default/dw5e36341e/images/Homepage/0518HP_CAMP_Hero_lrg.jpg");}
+ 75% {background-image: url("https://www.vineyardvines.com/on/demandware.static/-/Sites-Vineyard-Vines-Library/default/dw5da0d204/images/Homepage/0518HP_H1a_Hero_lrg.jpg");}
+ 100% {background-image: url("https://www.vineyardvines.com/on/demandware.static/-/Sites-Vineyard-Vines-Library/default/dw5da0d204/images/Homepage/0518HP_H1a_Hero_lrg.jpg");}
+}
+@media screen and (max-width:600px) {
+.center_container{
+  padding-top:20px;
+  padding-left:120px;
+}

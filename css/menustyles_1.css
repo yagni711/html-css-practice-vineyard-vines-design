@@ -1,0 +1,85 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  font-family: Nunito Sans Bold, sans-serif;
+}
+.firstline{
+  width: 100%;
+  background-color: #001D3E;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+  font-size:15px;
+  display: flex;
+}
+.container{
+display:flex;
+padding-top: 30px;
+padding-left: 80px;
+/*border: 1px solid black;*/
+}
+.container a{
+  color: lightgray;
+  padding: 5px 5px;
+}
+.searchemail{
+  background-color: white;
+  margin-left:7px;
+  font-size: 14px;
+  color: lightgray;
+  position: relative;
+  top:-4px;
+}
+.searchemail button{
+  background-color: #2E7FA0;
+  color: white;
+  border: none;
+  padding: 3px 7px 3px 7px;
+  border-radius:5px;
+  text-align: center;
+  font-size: 12px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+.center_container{
+  padding-top:20px;
+  padding-left:250px;
+}
+.right_container{
+  padding-top:30px;
+  padding-left:180px;
+  display: flex;
+}
+.second_container{
+   display: flex;
+  padding-top:30px;
+  padding-left:180px;
+}
+.second_container div{
+  padding: 20px;
+}
+.right_container a{
+  color: lightgray;
+  padding: 5px  20px;
+}
+.bag{
+  position: relative;
+  top:18px;
+  left:-34px;
+}
+.nav_menu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+}
+
+@media screen and (max-width:600px) {
+.center_container{
+  padding-top:20px;
+  padding-left:120px;
+}
